@@ -1,4 +1,3 @@
-import unittest
 MIN_DRIVING_AGE = 18
 
 
