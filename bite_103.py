@@ -14,7 +14,9 @@ def print_game_stats(games_won=games_won):
        julian has won 3 games
        jim has won 1 game
     """
-    for k,v in games_won.items():
-        print(str(k)+ ' has won '+ str(v)+' game') if v==1 else print(str(k)+ ' has won '+ str(v)+' games')
-    
+    for k, v in games_won.items():
+        print(str(k) + ' has won ' + str(v) +
+              ' game') if v == 1 else print(str(k) + ' has won ' + str(v) + ' games')
+
+
 print_game_stats()
